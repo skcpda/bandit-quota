@@ -30,11 +30,12 @@ Everything lives in a single, self‑contained script — **`scripts/bandit_quot
 
 ```bash
 # 1) clone and enter
-$ git clone https://github.com/your‑name/bandit‑quota
+$ git clone [https://github.com/your‑name/bandit‑quota](https://github.com/skcpda/bandit-quota)
 $ cd bandit‑quota
 
 # 2) (optional) create virtual‑env
 $ python -m venv .venv && source .venv/bin/activate
+$ cd bandit-quota
 $ pip install -r requirements.txt
 
 # 3) run the artifact script
