@@ -9,7 +9,7 @@ The pipeline reproduces the headline results reported in our CIKM 2025 resource
 
 ```
 Bandit    nDCG@10 ≈ 0.704   mean latency ≈ 0.91 s/query
-Union‑6   nDCG@10 ≈ 0.491   mean latency ≈ 6.97 s/query
+Union‑6   nDCG@10 ≈ 0.606   mean latency ≈ 6.97 s/query
 ```
 
 Everything lives in a single, self‑contained script — **`scripts/bandit_quota_artifact.py`** — that you can run on any CPU‑only machine with ≥16 GB RAM.
