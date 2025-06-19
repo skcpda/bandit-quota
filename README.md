@@ -66,39 +66,26 @@ Union‑6   nDCG@10 0.4908   mean lat 6.970s
 ```
 ---
 
-For all BEIR datasets, write a command with flag like this to get the results
 
 # Any other BEIR dataset – e.g. NFCorpus or TREC-COVID
-python scripts/bandit_quota.py --dataset nfcorpus
-python scripts/bandit_quota.py --dataset trec-covid
+* `python scripts/bandit_quota.py --dataset nfcorpus`
+* `python scripts/bandit_quota.py --dataset trec-covid`
 
 
 Here is full list of BEIR datasets:
-TREC-COVID (COVID-19 literature)
-
-NFCorpus (natural facts)
-
-SciFact (scientific claim verification)
-
-SCIDOCS (scientific document retrieval)
-
-FEVER (fact verification)
-
-Climate-FEVER (climate change verification)
-
-HotpotQA (multi-hop QA)
-
-NaturalQuestions (open-domain QA)
-
-FiQA-2018 (financial QA)
-
-ArguAna (argument retrieval)
-
-CQADupStack (forum question duplication) – treated as separate sub-sets (AskUbuntu, SuperUser, ServerFault, Webmasters, etc.)
-
-DBPedia (entity retrieval)
-
-TREC-NEWS (news article retrieval)
+* TREC-COVID (COVID-19 literature)
+* NFCorpus (natural facts)
+* SciFact (scientific claim verification)
+* SCIDOCS (scientific document retrieval)
+* FEVER (fact verification)
+* Climate-FEVER (climate change verification)
+* HotpotQA (multi-hop QA)
+* NaturalQuestions (open-domain QA)
+* FiQA-2018 (financial QA)
+* ArguAna (argument retrieval)
+* CQADupStack (forum question duplication) – treated as separate sub-sets (AskUbuntu, SuperUser, ServerFault, Webmasters, etc.)
+* DBPedia (entity retrieval)
+* TREC-NEWS (news article retrieval)
 ---
 
 ## Citation
