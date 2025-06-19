@@ -1,4 +1,4 @@
-# Bandit‑Quota (6‑arm) — BEIR SciFact
+# Bandit‑Quota (6‑arm) — BEIR datasets
 
 A lightweight **contextual‑bandit retrieval** demo that combines six off‑the‑shelf dense encoders with a latency‑aware Thompson‑sampling policy.
 
