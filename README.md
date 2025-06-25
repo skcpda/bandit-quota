@@ -19,13 +19,6 @@ Union‑6   nDCG@10 ≈ 0.2441   mean latency ≈ 4.079 s/query
 Best single encoder (bge)  nDCG@10 ≈ 0.3338   mean latency ≈ 0.570 s/query
 ```
 
-Bandit–Quota (ours)
-Best single encoder (mpnet) Naïve UNION–6 + CE
-nDCG@10
-0.3523 0.3338 0.2441
-Mean latency (s)
-0.694 0.570 4.079
-
 Everything lives in a single, self‑contained script — **`scripts/bandit_quota_artifact.py`** — that you can run on any CPU‑only machine with ≥16 GB RAM.
 
 ---
