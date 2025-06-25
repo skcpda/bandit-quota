@@ -39,10 +39,26 @@ from rank_bm25 import BM25Okapi
 
 # Dataset URLs mapping
 URLS = {
-    "scifact":   "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
-    "nfcorpus":  "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nfcorpus.zip",
-    "trec-covid":"https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/trec-covid.zip",
+    "trec-covid":   "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/trec-covid.zip",
+    "bioasq":       "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/bioasq.zip",
+    "nfcorpus":     "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nfcorpus.zip",
+    "nq":           "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nq.zip",
+    "hotpotqa":     "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/hotpotqa.zip",
+    "fiqa":         "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/fiqa.zip",
+    "fever":        "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/fever.zip",
+    "climate-fever":"https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/climate-fever.zip",
+    "scifact":      "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
+    "scidocs":      "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scidocs.zip",
+    "quora":        "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/quora.zip",
+    "dbpedia-entity":"https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/dbpedia-entity.zip",
+    "trec-news":    "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/trec-news.zip",
+    "robust04":     "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/robust04.zip",
+    "arguana":      "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/arguana.zip",
+    "webis-touche2020":"https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/webis-touche2020.zip",
+    "cqadupstack":  "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/cqadupstack.zip",
+    "signal1m":     "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/signal1m.zip",
 }
+
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser()
