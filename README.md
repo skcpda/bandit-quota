@@ -1,11 +1,11 @@
-# Bandit‑Quota (6‑arm) — BEIR datasets
+# Bandit‑Quota (6‑arm) — BEIR datasets (all 13 datasets)
 
 A lightweight **contextual‑bandit retrieval** demo that combines six off‑the‑shelf dense encoders with a latency‑aware Thompson‑sampling policy.
 
 ![optional alt text](bandit-quota/bandit-quota/Bandit.png)
 
 
-The pipeline reproduces the headline results reported in our CIKM 2025 resource‑track submission:
+The pipeline reproduces the headline results reported in our CIKM 2025 resource‑track submission (for SciFact dataset):
 
 ```
 Bandit    nDCG@10 ≈ 0.704   mean latency ≈ 0.91 s/query
@@ -72,7 +72,7 @@ Union‑6   nDCG@10 0.4908   mean lat 6.970s
 * `python scripts/bandit_quota.py --dataset trec-covid`
 
 
-Here is full list of BEIR datasets:
+Here is full list of BEIR datasets, all are supported by bandit-quota custom retriver:
 * TREC-COVID (COVID-19 literature)
 * NFCorpus (natural facts)
 * SciFact (scientific claim verification)
