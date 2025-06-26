@@ -95,6 +95,14 @@ Here is full list of BEIR datasets, all are supported by bandit-quota custom ret
 * TREC-NEWS (news article retrieval)
 ---
 
+| Flag        | Required? | Default   | Accepted values                                    | What it controls                                                |
+| ----------- | --------- | --------- | -------------------------------------------------- | --------------------------------------------------------------- |
+| `--arm`     | **yes**   | –         | `bge`, `contr`, `mpnet`, `gtr`, `minilm`, `distil` | Which dense encoder to fire.                                    |
+| `--dataset` | no        | `scifact` | any BEIR key you’ve mapped in `URLS`               | Target benchmark corpus.                                        |
+| `--topk`    | no        | `200`     | positive int                                       | How many hits to pull *per* encoder before merging.             |
+| `--rerank`  | no        | `50`      | positive int                                       | How many of the merged hits the MiniLM cross-encoder re-scores. |
+
+
 ## Citation
 
 If you build on this work, please cite the resource paper: (To be updated soon)
