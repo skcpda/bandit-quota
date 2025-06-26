@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "bandit-quota"
+version         = "0.3.0"
+description     = "Latency-aware contextual-bandit fusion for BEIR datasets"
+readme          = "README.md"
+license         = {text = "MIT"}
+authors         = [{name="Priyank Jayraj", email="priyank.jayraj@pilani.bits-pilani.ac.in"}]
+requires-python = ">=3.8"
+dependencies    = [
+  "torch>=2.0",
+  "sentence-transformers>=2.4",
+  "beir>=2.0",
+  "rank-bm25",
+  "tqdm",
+  "numpy",
+]
+
+[project.urls]
+"Source"   = "https://github.com/skcpda/bandit-quota"
+"Dataset"  = "https://doi.org/10.5281/zenodo.15686720"
+
+[project.scripts]
+bandit-quota = "bandit_quota.cli:main"
