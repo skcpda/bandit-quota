@@ -1,4 +1,5 @@
 # Bandit‑Quota (6‑arm) — BEIR datasets (all 13 datasets)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15686720.svg)](https://doi.org/10.5281/zenodo.15686720)
 
 A lightweight **contextual‑bandit retrieval** demo that combines six off‑the‑shelf dense encoders with a latency‑aware Thompson‑sampling policy.
 
