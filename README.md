@@ -95,6 +95,14 @@ Here is full list of BEIR datasets, all are supported by bandit-quota custom ret
 * TREC-NEWS (news article retrieval)
 ---
 
+#Command-line interface at a glance scripts/rerank_single.py
+
+python scripts/rerank_single.py \
+       --arm bge \
+       --dataset scifact \
+       --topk 200 \
+       --rerank 50
+
 | Flag        | Required? | Default   | Accepted values                                    | What it controls                                                |
 | ----------- | --------- | --------- | -------------------------------------------------- | --------------------------------------------------------------- |
 | `--arm`     | **yes**   | –         | `bge`, `contr`, `mpnet`, `gtr`, `minilm`, `distil` | Which dense encoder to fire.                                    |
