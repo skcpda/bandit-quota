@@ -19,6 +19,24 @@ Bandit    nDCG@10 ≈ 0.3523   mean latency ≈ 0.694 s/query
 Union‑6   nDCG@10 ≈ 0.2441   mean latency ≈ 4.079 s/query
 Best single encoder (bge)  nDCG@10 ≈ 0.3338   mean latency ≈ 0.570 s/query
 ```
+For the DBpedia dataset
+```
+Bandit    nDCG@10 ≈ 0.7905   mean latency ≈ 0.940 s/query
+Union‑6   nDCG@10 ≈ 0.6441   mean latency ≈ 7.019 s/query
+Best single encoder (bge)  nDCG@10 ≈ 0.7737   mean latency ≈ 0.869 s/query
+```
+For the TRECnews dataset
+```
+Bandit    nDCG@10 ≈ 0.7593   mean latency ≈ 0.893 s/query
+Union‑6   nDCG@10 ≈ 0.6110   mean latency ≈ 5.854 s/query
+Best single encoder (bge)  nDCG@10 ≈ 0.7163   mean latency ≈ 0.8682 s/query
+```
+For the ArguAna dataset
+```
+Bandit    nDCG@10 ≈ 0.6880   mean latency ≈ 0.718 s/query
+Union‑6   nDCG@10 ≈ 0.5729   mean latency ≈ 4.026 s/query
+Best single encoder (bge)  nDCG@10 ≈ 0.6812   mean latency ≈ 0.632 s/query
+```
 
 Everything lives in a single, self‑contained script — **`scripts/bandit_quota_artifact.py`** — that you can run on any CPU‑only machine with ≥16 GB RAM.
 
